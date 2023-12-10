@@ -1,4 +1,4 @@
-with open('AOC_day1_data.txt') as data:
+with open('data') as data:
     games = data.read().split('\n')
 
 limits = {'red': 12, 'green': 13, 'blue': 14}
