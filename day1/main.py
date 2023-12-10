@@ -1,6 +1,6 @@
 try:
     with open("data") as data:
-        lines = data.readlines();
+        lines = data.readlines()
 except FileNotFoundError as e:
     print(e)
 else:
