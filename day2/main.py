@@ -8,6 +8,7 @@ hej = 1
 
 for i, game in enumerate(games):
     isPossible = True
+    print(game[game.index(':') + 2:])
     game = game[game.index(':') + 2:]
     rounds = game.split(';')
     for round in rounds:
