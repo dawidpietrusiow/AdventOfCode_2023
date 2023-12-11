@@ -8,8 +8,7 @@ hej = 1
 
 for i, game in enumerate(games):
     isPossible = True
-    print(game[game.index(':') + 2:])
-    game = game[game.index(':') + 2:]
+    game = game[game.find(':') + 2:]
     rounds = game.split(';')
     for round in rounds:
         round = round.strip()
@@ -23,4 +22,3 @@ for i, game in enumerate(games):
         totalVal += i + 1
 
 print(totalVal)
-
