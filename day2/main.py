@@ -21,4 +21,4 @@ for i, game in enumerate(games):
         #Game num starts at 1, index at 0
         totalVal += i + 1
 
-print(totalVal)
+print(f"Pt1:{totalVal}")
