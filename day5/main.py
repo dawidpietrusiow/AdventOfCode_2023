@@ -14,6 +14,7 @@ maps = []
 while index < len(list):
     if 'map:' in list[index]:
         maps.append([])
+    index += 1
 
 print(seeds)
 print(list)

@@ -1,5 +1,5 @@
 try:
-    with open("data") as data:
+    with open("input") as data:
         lines = data.readlines()
 except FileNotFoundError as e:
     print(e)

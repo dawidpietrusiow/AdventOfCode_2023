@@ -48,7 +48,7 @@ totalVal1 = 0
 totalVal2 = 0
 cogwheels = []
 
-with open('machine_parts_scheme') as f:
+with open('input') as f:
     lines = f.read().split('\n')
 
 for row, line in enumerate(lines):

@@ -1,6 +1,6 @@
 import functools
 
-with open('AOC_day1_data.txt') as data:
+with open('input') as data:
     games = data.read().split('\n')
 
 limits = {'red': 12, 'green': 13, 'blue': 14}
