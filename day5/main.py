@@ -14,7 +14,8 @@ maps = []
 while index < len(list):
     if 'map:' in list[index]:
         maps.append([])
+    else: maps[-1].append(list[index].split(' '))
     index += 1
 
 print(seeds)
-print(list)
+print(maps)
